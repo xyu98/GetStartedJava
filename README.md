@@ -1,0 +1,2 @@
+# GetStartedJava
+Java learning record.
