@@ -13,12 +13,9 @@ public class TV {
 		this.on = on;
 	}
 	
-	/*
 	//构造方式2
 	public TV() {
-		
 	}
-	*/
 	
 	public void turnOn() {
 		on = true;
@@ -65,7 +62,6 @@ public class TV {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		TV tvTest1 = new TV(1,1,false);
 		tvTest1.turnOn();
 		tvTest1.setChannel(100);
@@ -76,7 +72,5 @@ public class TV {
 		
 		System.out.println ("tvTest1's channel is " + tvTest1.channel + " and volume level is "
 				+ tvTest1.volumeLevel + ".");
-		
 	}
-
 }

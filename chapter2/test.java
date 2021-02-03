@@ -3,7 +3,6 @@ package chapter2;
 public class test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println((float)25/4);
 		String str = "Hello";
 		System.out.println(str);
